@@ -63,3 +63,7 @@ async def update_user(user_update : Userupaterequest, user_id : UUID):
         status_code = 404,
         detail=f"user with id {user_id} does not exists "
     )
+
+
+
+    

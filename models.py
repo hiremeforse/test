@@ -25,3 +25,7 @@ class User(BaseModel):
 class Userupaterequest(BaseModel):
     firstname : Optional[str]
     lastname : optional[str]
+
+
+
+
